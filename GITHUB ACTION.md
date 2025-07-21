@@ -1,9 +1,11 @@
+##
 ## GITHUB ACTION
 # What is a Github Action?
 **GitHub Actions** is a **built-in CI/CD (Continuous Integration and Continuous Deployment)** feature in GitHub that lets you **automate tasks** in your software workflow.
 
 ## Purpose of Github Action
 GitHub Actions helps you automate **repetitive tasks** like:
+| ------------ | | ----------- |
 | ------------ | | ----------- |
 | **Use Case** | | **Example** |
 |--------------| |-------------|
