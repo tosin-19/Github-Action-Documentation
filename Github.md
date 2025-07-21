@@ -4,8 +4,8 @@
 
 ## Purpose of Github Action
 GitHub Actions helps you automate **repetitive tasks** like:
-| ------------ | | ----------- |
 | **Use Case** | | **Example** |
+| ------------ | | ----------- |
 | Running Tests | | Run unit tests when you push code |
 | Deploying applications | | Deploy your app to AWS, Azure, Netlify, etc. |
 | Linting and formatting | | Auto-check your code style |
@@ -20,8 +20,8 @@ GitHub Actions helps you automate **repetitive tasks** like:
 
 ## How Github Action Works.
 GitHub Actions is made up of:
-| -------- | | ----------- |
 | **Term** | | **Meaning** |
+| -------- | | ----------- |
 | **Workflow** | | A .yml file that defines what to run and when.|
 | **Job** | | A group of step (like build, test and deploy) |
 | **Step** | | An individual command in a job |
