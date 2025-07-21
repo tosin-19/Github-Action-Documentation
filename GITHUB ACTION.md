@@ -4,6 +4,7 @@
 
 ## Purpose of Github Action
 GitHub Actions helps you automate **repetitive tasks** like:
+| ------------ | | ----------- |
 | **Use Case** | | **Example** |
 |--------------| |-------------|
 | Running Tests | | Run unit tests when you push code |
@@ -25,6 +26,7 @@ GitHub Actions helps you automate **repetitive tasks** like:
 
 ## How Github Action Works.
 GitHub Actions is made up of:
+|----------| |-------------|
 | **Term** | | **Meaning** |
 | -------- | | ----------- |
 | **Workflow** | | A .yml file that defines what to run and when. |
@@ -38,11 +40,9 @@ GitHub Actions is made up of:
 
 ## Workflow File Example :
 This workflow runs tests every time code is pushed:
-yaml
+-yaml
 name: Run Tests
-
 on: [push]
-
 jobs:
   test:
     runs-on: ubuntu-latest
